@@ -16,3 +16,8 @@ that import both GeoLite2-Country and GeoLite2-City.
 
 GeoLite2-Country uses numerical ID's, so you can not import without hashes.
 
+
+Requirement
+===============
+pip install redis
+
