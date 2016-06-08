@@ -1,5 +1,4 @@
-#!/usr/local/bin/php
-<?
+<?php
 function geoip_redis($r, $ip, $country_only = true){
 	$ipnum = ip2long($ip);
 
@@ -34,5 +33,6 @@ function geoip_redis($r, $ip, $country_only = true){
 $r = new Redis();
 $r->connect("localhost");
 print_r( geoip_redis($r, "194.145.63.0", false) );
+?>
 
 		
