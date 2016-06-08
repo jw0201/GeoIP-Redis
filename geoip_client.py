@@ -36,7 +36,8 @@ def geoip_redis(r, ip, country_only = True):
 		return None
 	
 
-r = Redis("localhost")
+# r = Redis("localhost")
+r = Redis("172.16.101.102")
 
 print geoip_redis(r, "194.145.63.0", False)
 
