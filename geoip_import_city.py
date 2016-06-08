@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-filename     = "GeoLiteCity_20130305/GeoLiteCity-Blocks.csv"
-filename_loc = "GeoLiteCity_20130305/GeoLiteCity-Location.csv"
+filename     = "data/GeoLiteCity_20160503/GeoLiteCity-Blocks.csv"
+filename_loc = "data/GeoLiteCity_20160503/GeoLiteCity-Location.csv"
 
 from redis import Redis
 r = Redis("localhost")
