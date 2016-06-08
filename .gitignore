@@ -1,4 +1,4 @@
 data/
 *.rdb
 *.pyc
-
+*.idea/
